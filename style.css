@@ -37,6 +37,12 @@ justify-content: flex-end;
 width: 25%;
 padding-right: 30px;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 .banner1{
 display: flex;
 justify-content: center;
