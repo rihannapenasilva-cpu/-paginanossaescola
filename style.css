@@ -38,6 +38,8 @@ width: 25%;
 padding-right: 30px;
 }
 
+
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -64,7 +66,6 @@ ul li a:hover {
 
 
 
-}
 .banner1{
 display: flex;
 justify-content: center;
