@@ -71,6 +71,33 @@ ul li a:hover {
 }
 
 
+ul2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E47B4B;
+}
+
+ul2 li2 {
+  float: left;
+}
+
+ul2 li2 a2 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul2 li2 a2:hover {
+  background-color: #E47B4B
+}
+
+
+
+
 
 .banner1{
 display: flex;
