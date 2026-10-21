@@ -95,10 +95,6 @@ ul2 li2 a2:hover {
   background-color: #E47B4B
 }
 
-
-
-
-
 .banner1{
 display: flex;
 justify-content: center;
@@ -132,7 +128,7 @@ display: flex;
 justify-content: space-around;
 }
 .escola{
-background-image: linear-gradient(#40A2E3,#7FC2EF);
+background-image: linear-gradient(#E47B4B,#CF6244);
 color: white;
 display: flex;
 justify-content:center;
