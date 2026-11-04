@@ -24,12 +24,34 @@ Escola">
 
 <!------------------------------------------------------------------------------------------------>
 
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="sobre.html">News</a></li>
-  <li><a href="contato.html">Contact</a></li>
-  <li><a href="jogo.html">games</a></li>
-</ul>
+
+<!-- Área Principal do Jogo -->
+    <main class="game-container-wrapper">
+        <div id="game-container">
+            <div class="game-header">
+                <div class="score-board">Pontuação: <span id="score">0</span></div>
+                <button id="fullscreen-btn">⛶ Tela Cheia</button>
+            </div>
+            
+            <div class="game-area">
+                <!-- Alvos fixos no topo -->
+                <div class="lanes-container">
+                    <div class="lane-target" data-key="ArrowLeft">←</div>
+                    <div class="lane-target" data-key="ArrowUp">↑</div>
+                    <div class="lane-target" data-key="ArrowDown">↓</div>
+                    <div class="lane-target" data-key="ArrowRight">→</div>
+                </div>
+                <!-- As setas móveis serão geradas aqui dentro via JS -->
+            </div>
+
+            <div class="game-start-overlay" id="start-overlay">
+                <h2>Jogo de Ritmo</h2>
+                <p>Use as setas do teclado (← ↑ ↓ →) no momento certo!</p>
+                <button id="start-btn">Jogar</button>
+            </div>
+        </div>
+    </main>
+
 
 
 
